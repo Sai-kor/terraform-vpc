@@ -23,7 +23,6 @@ resource "aws_nat_gateway" "ngw" {
     Name = "${var.ENV}-ngw"
     ENV = var.ENV
   }
-
 }
 
 
